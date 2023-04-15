@@ -24,6 +24,10 @@ To avoid a situation where the report will be sent automatically before the work
 For this purpose, the following were done:
 
 <br />
+1. Defining the logic in the script (Data Load Editor) which says that only if a change is    detected in the working hours file (the excel file) than the QVD files      (C1+C2) must be updated. In addition, it can be seen that a number of variables have been set (vt_year, vt_month, vt_day) which together indicate the date when the    QVD files were last updated and which we will use later in the GUI:
+
+
+
 <h2>Creating the dashboard:</h2>
 <a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/FJKgq5j/Picture6.png" alt="Picture6" border="0"></a>
 <!--
