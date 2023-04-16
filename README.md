@@ -1,9 +1,5 @@
 # Executives_Nprinting
 
-# Simulation
-
-
-
 <h2>Description</h2>
 Presented here is an executive dashboard (also in table version) which is sent every month automatically using Nprinting. 
 The executive dashboard will be sent only when the "working hours" file (an excel file) will be updated.
@@ -32,6 +28,18 @@ For this purpose, the following were done:
 2. In the GUI we have set the table to only be displayed if the QVD files have been updated and
 if it is the same as today's date, by creating a new variable called vDate_UI which consists of the variables we defined in the Script:
 <a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/SmMXk6Z/Picture1.png" alt="Picture1" border="0"></a>
+<br />
+And finally the condition for displaying the table:
+<br />
+<a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/c83G6s4/Picture2.png" alt="Picture2" border="0"></a>
+<br />
+<br />
+3. In Nprinting we created a QlikEntity report for the dashboard and for the table (We chose the QlikEntity type mainly because the report can be displayed as an image directly in the email and not just as an attachment that needs to be opened separately):
+<a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/5MMFJFR/Picture3.png" alt="Picture3" border="0"></a>
+
+4. Finally, we defined a Task that will be executed only when a condition is met in which the object (chart) of the table is displayed properly 
+(which actually means that there was an update in the excel file of the working hours file and Nprinting can send the updated executive's report):
+<a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/HqBRCjc/Picture4.png" alt="Picture4" border="0"></a>
 
 <!--
  ```diff
