@@ -38,7 +38,7 @@ And finally the condition for displaying the table:
 <a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/5MMFJFR/Picture3.png" alt="Picture3" border="0"></a>
 
 4. Finally, we defined a Task that will be executed only when a condition is met in which the object (chart) of the table is displayed properly 
-(which actually means that there was an update in the excel file of the working hours file and Nprinting can send the updated executive's report):
+(which actually means that there was an update in the excel file of the working hours and Nprinting can send the updated executive's report):
 <a href="https://ibb.co/vmHZv3K"><img src="https://i.ibb.co/HqBRCjc/Picture4.png" alt="Picture4" border="0"></a>
 
 <!--
