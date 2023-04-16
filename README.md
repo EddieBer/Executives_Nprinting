@@ -1,4 +1,4 @@
-# Executives_Nprinting
+# Executive Dashboard Using Nprinting
 
 <h2>Description</h2>
 Presented here is an executive dashboard (also in table version) which is sent every month automatically using Nprinting. 
